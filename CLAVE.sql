@@ -25,3 +25,6 @@ SELECT HashBytes('SHA1','qbit.com.mx')
 SELECT SUBSTRING(master.dbo.fn_varbintohexstr(HashBytes('MD5', 'qbit.com.mx'), 3, 32) AS MD5
 SELECT SUBSTRING((HashBytes('SHA', (SELECT TOP 1 CLAVE FROM AC_MOTIVO)), 3, 40) AS SHA
 SELECT SUBSTRING((SELECT TOP 1 CLAVE FROM AC_MOTIVO),1,500) AS SHA1
+
+https://dev.mysql.com/downloads/connector/odbc/
+https://www.youtube.com/watch?v=uIvJP2jlgkw
