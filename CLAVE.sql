@@ -28,3 +28,4 @@ SELECT SUBSTRING((SELECT TOP 1 CLAVE FROM AC_MOTIVO),1,500) AS SHA1
 
 https://dev.mysql.com/downloads/connector/odbc/
 https://www.youtube.com/watch?v=uIvJP2jlgkw
+https://www.connectionstrings.com/mysql/
